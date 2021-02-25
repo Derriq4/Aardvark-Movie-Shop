@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Aardvark Movie Shop</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="movies, genre, action">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <img src="../Images/ms.png";>
+</head>
+<body>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col" style="color:blue; background-color:lightblue;"><b>Real and Reel:Buy One Get Two Free</b></div>
+  </div>
+</div>
+<br>
+<div class="container">
+<button class="btn btn-primary"><a href="file:///E:/Emobilis%20Scholarship/Assignment/Aardvark/index.html" style="color: white;">Back to Homepage</a></button>
+<hr>
+  <form action="/action_page.php" class="was-validated">
+    <div class="row form-group">
+      <div class="col">
+      <label for="mname">Movie Name</label>
+      <input type="text" class="form-control" id="mame" placeholder="Movie Name" name="mname" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="col">
+      <label for="la">Lead Actor</label>
+      <input type="text" class="form-control" id="la" placeholder="Lead Actor" name="la" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+  </div>
+  <div class="row form-group">
+    <div class="col">
+      <label for="drtn">Duration</label>
+      <input type="text" class="form-control" id="time" placeholder="Time in hours" name="time" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="col">
+      <label for="mp">Movie Poster</label>
+      <input type="file" class="form-control" id="mp" name="mp" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+  </div>
+  <div class="row form-group">
+    <div class="col">
+      <label for="rtn">Rating</label>
+      <input type="text" class="form-control" id="rtn" placeholder="PG" name="number" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="col">
+      <label for="gnr">Genre</label>
+      <select type="text" class="form-control" id="gnr" placeholder="select" name="gnr" required>
+        <option value="action">Action</option>
+        <option value="adventure">Adventure</option>
+        <option value="thriller">Thriller</option>
+        <option value="drama">Drama</option>
+        <option value="sport">Sport</option>
+        <option value="comedy">Comedy</option>
+      </select>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+  </div>
+  <div class="row form-group">
+    <div class="col">
+    <input type="submit" name="save" class="btn btn-primary btn-block">
+  </div>
+  <div class="col">
+    <input type="reset" name="reset" class="btn btn-danger btn-block">
+  </div>
+</div>
+  </form>
+</div>
+<br>
+<br>
+<!--FOOTER-->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col" style="text-align: center; background-color:lightblue;"><b>Copyright&copy 2021</b></div>
+  </div>
+</div>
+</body>
+</html>
